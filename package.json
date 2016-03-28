@@ -4,17 +4,6 @@
   "version": "0.0.1",
   "description": "Exerimental application using JWT",
   "author": "Lars Boegild Thomsen <lth@cow.dk>",
-  "dependencies": {
-    "express": "^4.13.3",
-    "mongoose": "^4.4.6"
-  },
-  "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-bower-task": "^0.4.0",
-    "grunt-contrib-jshint": "^0.12.0",
-    "grunt-contrib-nodeunit": "^0.4.1",
-    "grunt-contrib-uglify": "^0.11.0"
-  },
     "scripts": {
         "start": "node server.js"
     }
