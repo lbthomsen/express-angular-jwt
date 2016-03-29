@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html data-ng-app="app">
     <head data-ng-controller="HeadController as headCtrl">
-        <title>{{siteService.settings.head.title}}</title>
+        <title>Express/Angular JWT Example</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
     </head>
-    <body data-ng-controller="BodyController as bodyCtrl">
-        <p>{{siteService.settings.body.hello}}</p>
+    <body data-ng-controller="BodyController as bodyCtrl"data-ng-cloak>
+        <p>{{siteService.settings.hello}}</p>
 
         <script src="lib/jquery/jquery.js" type="text/javascript"> </script>
         <script src="lib/angular/angular.js" type="text/javascript"> </script>
         <script src="js/app.js" type="text/javascript"> </script>
         <script src="js/site.js" type="text/javascript"> </script>
+        <script src="js/auth.js" type="text/javascript"> </script>
         <script src="js/head.js" type="text/javascript"> </script>
         <script src="js/body.js" type="text/javascript"> </script>
     </body>

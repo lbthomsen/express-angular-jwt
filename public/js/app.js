@@ -6,6 +6,7 @@
 
     var app = angular.module('app', [
         'site',
+        'auth', 
         'head', 
         'body'
     ]);
