@@ -5,10 +5,11 @@
 (function() {
 
     var app = angular.module('app', [
+        'site',
+        'head', 
         'body'
     ]);
 
-    
 })();
 
 /*

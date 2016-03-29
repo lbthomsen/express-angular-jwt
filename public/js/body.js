@@ -6,13 +6,13 @@
 
     var body = angular.module('body', []);
 
-    body.controller("BodyController", ['$log', '$scope', 
-        function ($log, $scope) {
+    body.controller("BodyController", ['$log', '$scope', 'SiteService', 
+        function ($log, $scope, siteService) {
 
             $log.debug("BodyController Starting");
             
-            $scope.hello = "Hello World";
-
+            $scope.siteService = siteService;
+            
         }
     ]);
 

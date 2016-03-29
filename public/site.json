@@ -1,0 +1,8 @@
+{
+    "head": {
+        "title": "JWT Example"
+    },
+    "body": {
+        "hello": "Hello World!"
+    }
+}
