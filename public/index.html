@@ -1,11 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html data-ng-app="app">
     <head>
         <title>Express/Angular/JWT Example</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
-    <body>
-        <div>TODO write content</div>
+    <body data-ng-controller="BodyController as bodyCtrl">
+        <p>{{hello}}</p>
+
+        <script src="lib/jquery/jquery.js" type="text/javascript"> </script>
+        <script src="lib/angular/angular.js" type="text/javascript"> </script>
+        <script src="js/app.js" type="text/javascript"> </script>
+        <script src="js/body.js" type="text/javascript"> </script>
     </body>
 </html>

@@ -2,7 +2,7 @@
  * Development Settings
  */
 
-var port = 12001;
+var port = 12000;
 
 module.exports = {
     port: port,

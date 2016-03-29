@@ -1,0 +1,22 @@
+{
+  "name": "express-angular-jwt",
+  "homepage": "https://github.com/lbthomsen/express-angular-jwt",
+  "authors": [
+    "Lars Boegild Thomsen <lth@netcompartner.com>"
+  ],
+  "description": "Express/Angular JWT Example",
+  "moduleType": [
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.2",
+    "angular": "^1.5.3"
+  }
+}

@@ -1,6 +1,5 @@
 /*
  * mongoose.js
- *
  */
 
 var config = require('./config'),
@@ -12,10 +11,10 @@ module.exports = function() {
     // Uncomment the following line to enable debug
     mongoose.set('debug', true);
 
-    require('../app/models/user.server.model');
-    require('../app/models/settings.server.model');
-    require('../app/models/channel.server.model');
-    require('../app/models/channelData.server.model');
+    require('../app/models/user');
+    //require('../app/models/settings.server.model');
+    //require('../app/models/channel.server.model');
+    //require('../app/models/channelData.server.model');
 
     return db;
 

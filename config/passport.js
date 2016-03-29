@@ -1,3 +1,8 @@
+/*
+ * 
+ * Passport Configuration
+ */
+
 var passport = require('passport'),
     mongoose = require('mongoose');
 
